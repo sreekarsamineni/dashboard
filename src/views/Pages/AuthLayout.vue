@@ -9,7 +9,7 @@
     >
       <div slot="brand" class="navbar-wrapper">
         <b-navbar-brand to="/">
-          <img src="img/brand/white.png">
+          <img src="img/brand/tpub.png" width="190px">
         </b-navbar-brand>
       </div>
 
@@ -18,7 +18,7 @@
          <b-row>
            <b-col cols="6" class="collapse-brand">
              <router-link to="/">
-               <img src="img/brand/green.png">
+               <img src="img/brand/tpub.png">
              </router-link>
            </b-col>
            <b-col cols="6" class="collapse-close">
@@ -29,7 +29,7 @@
            </b-col>
          </b-row>
        </div>
-         <b-navbar-nav  class="align-items-lg-center ml-lg-auto">
+         <!-- <b-navbar-nav  class="align-items-lg-center ml-lg-auto">
            <b-nav-item to="/dashboard">
                <i class="ni ni-planet"></i>
                <span class="nav-link-inner--text">Dashboard</span>
@@ -46,7 +46,7 @@
                <i class="ni ni-single-02"></i>
                <span class="nav-link-inner--text">Profile</span>
            </b-nav-item>
-       </b-navbar-nav>
+       </b-navbar-nav> -->
      </template>
     </base-nav>
 
@@ -64,7 +64,7 @@
         <b-row align-v="center" class="justify-content-xl-between">
           <b-col xl="6">
             <div class="copyright text-center text-xl-left text-muted">
-              © {{year}} <a href="https://www.creative-tim.com" class="font-weight-bold ml-1" target="_blank">Creative Tim</a>
+              © {{year}} <a href="https://www.creative-tim.com" class="font-weight-bold ml-1" target="_blank">TechPubConnect</a>
             </div>
           </b-col>
           <b-col xl="6" class="col-xl-6">

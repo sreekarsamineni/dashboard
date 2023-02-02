@@ -25,7 +25,7 @@
       <b-row class="justify-content-center">
         <b-col lg="5" md="7">
           <b-card no-body class="bg-secondary border-0 mb-0">
-            <b-card-header class="bg-transparent pb-5"  >
+            <!-- <b-card-header class="bg-transparent pb-5"  >
               <div class="text-muted text-center mt-2 mb-3"><small>Sign in with</small></div>
               <div class="btn-wrapper text-center">
                 <a href="#" class="btn btn-neutral btn-icon">
@@ -37,11 +37,11 @@
                   <span class="btn-inner--text">Google</span>
                 </a>
               </div>
-            </b-card-header>
+            </b-card-header> -->
             <b-card-body class="px-lg-5 py-lg-5">
-              <div class="text-center text-muted mb-4">
+              <!-- <div class="text-center text-muted mb-4">
                 <small>Or sign in with credentials</small>
-              </div>
+              </div> -->
               <validation-observer v-slot="{handleSubmit}" ref="formValidator">
                 <b-form role="form" @submit.prevent="handleSubmit(onSubmit)">
                   <base-input alternative

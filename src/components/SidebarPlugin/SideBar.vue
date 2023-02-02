@@ -7,7 +7,7 @@
                 
             </navbar-toggle-button>
             <router-link class="navbar-brand" to="/">
-                <img :src="logo" class="navbar-brand-img" alt="...">
+                <img :src="logo" class="navbar-brand-img" alt="..." height="39px" width="150px">
             </router-link>
 
             <slot name="mobile-right">
@@ -79,12 +79,12 @@
                     <slot name="links">
                     </slot>
                 </ul>
-                <!--Divider-->
+                <!-- Divider -->
                 <hr class="my-3">
                 <!--Heading-->
-                <h6 class="navbar-heading text-muted">Documentation</h6>
+                <!-- <h6 class="navbar-heading text-muted">Documentation</h6> -->
                 <!--Navigation-->
-                <ul class="navbar-nav mb-md-3">
+                <!-- <ul class="navbar-nav mb-md-3">
                     <li class="nav-item">
                         <a class="nav-link"
                            href="https://www.creative-tim.com/learning-lab/bootstrap-vue/alerts/argon-dashboard">
@@ -103,7 +103,7 @@
                             <i class="ni ni-ui-04"></i> Components
                         </a>
                     </li>
-                </ul>
+                </ul> -->
             </div>
             </div>
     </nav>
@@ -119,7 +119,7 @@
     props: {
       logo: {
         type: String,
-        default: 'img/brand/green.png',
+        default: 'img/brand/tpub.png',
         description: 'Sidebar app logo'
       },
       autoClose: {
